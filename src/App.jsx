@@ -1,11 +1,12 @@
-// import { useState } from 'react'
 import "./App.css";
-import Slider from "./components/cssSlider/cssSlider";
+import AnimatedCards from "./components/cssSlider/cssSlider";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
-  return <Slider />;
+  return (
+    <div className="App">
+      <AnimatedCards />
+    </div>
+  )
 }
 
 export default App;
