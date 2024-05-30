@@ -51,7 +51,6 @@ const AnimatedCards = () => {
                 style={{ backgroundImage: `url(${card.img})` }}
               >
                 <div className={styles.row}>
-                  <div className={styles.icon}>{card.id.slice(1)}</div>
                   <div className={styles.description}>
                     <h4>{card.title}</h4>
                     <p>{card.description}</p>
