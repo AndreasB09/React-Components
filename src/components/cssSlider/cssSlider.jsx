@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './cssSlider.module.css';
-import img1 from '../../assets/images/forest_nature.png';
-import img2 from '../../assets/images/air_sky.png';
-import img3 from '../../assets/images/fire_volcano.png';
-import img4 from '../../assets/images/water_ocean.png';
+import img1 from '../../assets/images/cssSlider/forest_nature.png';
+import img2 from '../../assets/images/cssSlider/air_sky.png';
+import img3 from '../../assets/images/cssSlider/fire_volcano.png';
+import img4 from '../../assets/images/cssSlider/water_ocean.png';
 
 const sliderCards = [
   {
