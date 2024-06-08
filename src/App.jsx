@@ -1,12 +1,17 @@
 import "./App.css";
-import AnimatedCards from "./components/cssSlider/cssSlider";
+import Home from './pages/Home/Home.jsx';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Slider from './pages/Slider/Slider.jsx'
 
 function App() {
   return (
-    <div className="App">
-      <AnimatedCards />
-    </div>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Slider" element={<Slider />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;
