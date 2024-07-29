@@ -2,6 +2,7 @@ import "./App.css";
 import Home from './pages/Home/Home.jsx';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Slider from './pages/Slider/Slider.jsx'
+import Animations from './pages/Animations/Animations.jsx'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Slider" element={<Slider />} />
+        <Route path="Animations" element={<Animations />} />
       </Routes>
     </Router>
   );

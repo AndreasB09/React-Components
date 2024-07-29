@@ -15,6 +15,9 @@ function Header() {
                 <Link to="/slider">
                     <button className={styles.navBtn}>Slider</button>
                 </Link>
+                <Link to="/animations">
+                    <button className={styles.navBtn}>Animations</button>
+                </Link>
             </div>
         </header>
     );
