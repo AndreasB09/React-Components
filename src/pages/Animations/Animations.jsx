@@ -8,6 +8,7 @@ function Animations() {
                 <div className={styles.card}>
 
                 </div>
+                
             </div>
         </Layout>
     );

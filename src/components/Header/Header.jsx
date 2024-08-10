@@ -18,6 +18,9 @@ function Header() {
                 <Link to="/animations">
                     <button className={styles.navBtn}>Animations</button>
                 </Link>
+                <Link to="/Test">
+                    <button className={styles.navBtn}>Test</button>
+                </Link>
             </div>
         </header>
     );
