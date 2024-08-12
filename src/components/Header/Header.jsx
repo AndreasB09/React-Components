@@ -18,7 +18,7 @@ function Header() {
                 <Link to="/animations">
                     <button className={styles.navBtn}>Animations</button>
                 </Link>
-                <Link to="/Test">
+                <Link to="/test">
                     <button className={styles.navBtn}>Test</button>
                 </Link>
             </div>
