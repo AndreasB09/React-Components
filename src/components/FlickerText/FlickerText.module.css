@@ -1,0 +1,15 @@
+.flicker {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    animation: flicker 1.5s infinite alternate;
+  }
+  
+  @keyframes flicker {
+    0% { opacity: 0.8; text-shadow: 0 0 5px #fff, 0 0 10px #fff; }
+    50% { opacity: 1; text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff; }
+    100% { opacity: 0.8; text-shadow: 0 0 5px #fff, 0 0 10px #fff; }
+  }
+  
