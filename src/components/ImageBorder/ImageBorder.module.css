@@ -1,0 +1,61 @@
+.imageBorderWrapper {
+    display: inline-block;
+    position: relative;
+    padding: 5px 5px 2px 5px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.imageBorder {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.imageBorderWrapper::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg,
+        var(--gradient-color-1),
+        var(--gradient-color-2),
+        var(--gradient-color-3),
+        var(--gradient-color-4)
+    );
+    background-size: 400% 400%;
+    border-radius: 0.75rem;
+    animation: gradient 3s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* troubleshooting */
+/* .imageBorderWrapper {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.imageBorderWrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+} */
